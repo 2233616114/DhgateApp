@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>statsequipment</name>
+	<displayName><![CDATA[浏览器和操作系统]]></displayName>
+	<version><![CDATA[1.3.0]]></version>
+	<description><![CDATA[在仪表盘添加一个关于Web浏览器和操作系统的使用图表标签。]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[analytics_stats]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

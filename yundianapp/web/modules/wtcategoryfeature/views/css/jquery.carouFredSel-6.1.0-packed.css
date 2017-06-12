@@ -1,0 +1,51 @@
+.list_carousel {
+	width: 360px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li.ajax_block_product {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin:5px 20px;vertical-align:top;
+	display: inline-block;#display: inline;
+}
+.list_carousel.responsive {
+	width: auto;
+	margin-left: 0;
+	padding:0;
+}
+.cclearfix {
+	float: none;
+	clear: both;
+}
+
+
+.pager {
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.pager a {
+	margin: 0 5px;
+	text-decoration: none;
+}
+.pager a.selected {
+	text-decoration: underline;
+}
+.timer {
+	background-color: #999;
+	height: 6px;
+	width: 0px;
+}
+.ui-tabs .ui-tabs-hide {
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+

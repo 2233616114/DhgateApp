@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>cheque</name>
+	<displayName><![CDATA[检查]]></displayName>
+	<version><![CDATA[2.7.1]]></version>
+	<description><![CDATA[这个模块允许支票支付]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[您确认要删除您的详细资料？]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

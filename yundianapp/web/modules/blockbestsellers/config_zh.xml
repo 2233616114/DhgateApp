@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockbestsellers</name>
+	<displayName><![CDATA[畅销模块]]></displayName>
+	<version><![CDATA[1.8.0]]></version>
+	<description><![CDATA[添加一个模块，显示店铺的最畅销商品]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

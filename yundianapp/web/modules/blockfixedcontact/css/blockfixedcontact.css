@@ -1,0 +1,66 @@
+#blockfixedcontact {
+    position: fixed;
+    min-width: 35px;
+    right: 0;
+    top: 35%;
+    z-index: 999999;
+}
+
+#blockfixedcontact .right_list_ul {
+    overflow: hidden;
+}
+
+#blockfixedcontact .right_list_ul li {
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+#blockfixedcontact .right_list_ul li p {
+    line-height: 40px;
+    color: #fff;
+    float: right;
+    margin-right: -40px;
+    background: #ff5702;
+    font-size: 12px;
+    padding: 0 8px;
+    opacity: 0;
+    margin-bottom: 0;
+}
+
+
+#blockfixedcontact .right_list_ul li div {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    background: #444851;
+    text-align: center;
+    float: left;
+}
+
+#blockfixedcontact .right_list_ul li div:hover {
+    background: #ff5702;
+}
+
+#blockfixedcontact .right_list_ul li div span {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+#blockfixedcontact .right_list_ul li div .email{
+    display: block;
+    background: url('../img/email.png') no-repeat;
+    width: 35px;
+    height: 35px;
+    margin-top: 2px;
+}
+#blockfixedcontact .right_list_ul li div .skype{
+    display: block;
+    background: url('../img/skype.png') no-repeat;
+    width: 35px;
+    height: 35px;
+    margin-top: 2px;
+}
+
+

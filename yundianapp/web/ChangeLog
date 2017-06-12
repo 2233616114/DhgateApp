@@ -1,0 +1,15 @@
+Version 2.06 (20170420)
+Bugfix:
+1. BO: fix image presentation problem in product management page 
+2. FO: remove 'Page x' in scrolled product page in muinfinitescroll module
+
+-----------------------------------------------------------------------------------
+
+Version 2.05 (20170418)
+New feature:
+1. BO: add product in one page, simplify wholesale price setting, quantity setting and attribute combination setting, modify images presentation and etc.
+2. BO: config shipping fee by country
+3. BO: add product list and shipping address in order list
+4. BO: add shop decoration
+Bugfix:
+1. FO: fix price confusion when setting wholesale price and attribute combination price.

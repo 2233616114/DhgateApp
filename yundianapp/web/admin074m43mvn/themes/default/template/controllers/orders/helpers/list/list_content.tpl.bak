@@ -1,0 +1,34 @@
+{extends file="helpers/list/list_content.tpl"}
+{block name="tr_append"}
+    {if count($tr.products)}
+    <tr>
+        <td colspan="12">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {foreach $tr.products AS $pi => $product}
+                    <tr>
+                        <td>{$product.product_name}</td>
+                        <td>{$product.unit_price_tax_incl}</td>
+                        <td>{$product.product_quantity}</td>
+                        <td>{$product.total_price_tax_incl}</td>
+                    </tr>
+                    {/foreach}
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    <tr class="success">
+        <td colspan="12">
+        </td>
+    </tr>
+    {/if}
+
+{/block}

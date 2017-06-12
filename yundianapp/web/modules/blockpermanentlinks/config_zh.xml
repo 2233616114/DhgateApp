@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockpermanentlinks</name>
+	<displayName><![CDATA[固定链接区域]]></displayName>
+	<version><![CDATA[0.3.0]]></version>
+	<description><![CDATA[添加一个固定链接如站点地图，联系我们等。]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>blockcustomerprivacy</name>
+	<displayName><![CDATA[顾客数据隐私模块]]></displayName>
+	<version><![CDATA[2.0.1]]></version>
+	<description><![CDATA[增加一个模块显示关于顾客数据隐私的信息。]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

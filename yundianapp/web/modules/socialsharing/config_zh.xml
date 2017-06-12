@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>socialsharing</name>
+	<displayName><![CDATA[社交分享]]></displayName>
+	<version><![CDATA[1.4.1]]></version>
+	<description><![CDATA[显示在每个商品页面分享按钮（twitter，facebook，谷歌和Pinterest）。]]></description>
+	<author><![CDATA[PrestaShop]]></author>
+	<tab><![CDATA[advertising_marketing]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
