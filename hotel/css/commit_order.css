@@ -1,0 +1,137 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+.con header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+.con section{
+	width:100%;
+    -webkit-box-flex:1;
+    overflow-y:auto;
+    background-color: #F6F6F6;
+}
+section .hotel_name{
+	width:96%;
+	height:40px;
+	line-height:40px;
+	background-color: #fff;
+	color:#000;
+	font-size:19px;
+	padding-left:4%;
+	border-bottom:1px solid #f2f2f2;
+}
+section .price_content{
+	width:100%;
+	background-color: #fff;
+}
+section .price_content dl{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	position:relative;
+	border-bottom:1px solid #f2f2f2;
+}
+section .price_content dl dt{
+	position: absolute;
+	width:30%;
+	left:4%;
+	font-size:16px;
+}
+section .price_content dl dd{
+	width:10%;
+	position:absolute;
+	left:70%;
+	color:gray;
+	font-size:16px;
+}
+section .price_content dl span{
+	width:10%;
+	position: absolute;
+	left:85%;
+	color:#000;
+	font-size:16px;
+}
+section .count{
+	width:100%;
+	background-color: #fff;
+}
+section .count dl{
+	width:100%;
+	height:40px;
+	line-height: 40px;
+	position:relative;
+	border-bottom:1px solid #f2f2f2;
+}
+section .count dl dt{
+	position: absolute;
+	width:30%;
+	left:4%;
+	font-size:16px;
+}
+section .count dl dd{
+	width:15%;
+	position:absolute;
+	left:70%;
+	color:gray;
+	font-size:16px;
+}
+section .count dl.total dd{
+	width:15%;
+	position:absolute;
+	left:68%;
+	color:gray;
+	font-size:16px;
+}
+section .count dl span{
+	width:10%;
+	position: absolute;
+	left:85%;
+	color:#000;
+	font-size:16px;
+}
+footer{
+	width:100%;
+	height:50px;
+	background-color: #202124;
+	position: fixed;/*固定定位*/
+	bottom:0px;
+	z-index:100;
+}
+footer button{
+	border:none;
+	outline:none;
+	width:30%;
+	height:100%;
+	color:#fff;
+	font-size:16px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	background-color:#009B85;
+	/*display: none;*/
+}

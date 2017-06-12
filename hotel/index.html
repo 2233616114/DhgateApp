@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- html5页面调用手机打电话功能 -->
+	<meta name="format-detection" content="telephone=yes"/>
+	<title>hotel首页-index.html</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<!-- 引入js文件 -->
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>	
+</head>
+<body>
+	<div class="con">
+	    <!--头部 -->
+		<header>
+			<div class="search">
+			    <img class="search_logo" src="img/search.png" />
+				<input type="search" class="search" placeholder="搜索商品名称"></input>
+			</div>
+			<img class="imgR" src="img/headerR.png" /> 
+		    <ul>
+		    	<li><a href="register.html">注册</a></li>
+		    	<li><a href="login.html">登录</a></li>
+		    </ul>
+		</header>	
+		<!-- 中间部分 -->
+		<section>
+
+		    <!-- 1、广告轮播部分 -->
+			<div class="box" id="box">
+			    <div class="container" id="container">
+				    <!--所有的轮播图片-->
+					<ul class="pic" id="pic">
+						<!--图片1-->
+						<li class="lilist">
+							<div class="licontent">
+								<img src="img/food1.png"/>
+							</div>
+						</li>
+						<!--图片2-->
+						<li>
+							<div class="licontent">
+								<img src="img/food2.png"/>
+							</div>
+						</li>
+						<!--图片3-->
+						<li>
+							<div class="licontent">
+								<img src="img/food7.png"/>
+							</div>
+						</li>
+						<!--图片4-->
+						<li>
+							<div class="licontent">
+								<img src="img/food6.png"/>
+							</div>
+						</li>
+					</ul>
+					<!-- 显示的所有的小圆点 -->
+					<ol class="ollist" id="ollist">
+		                <li class="on"></li>
+		                <li></li>
+		                <li></li>
+		                <li></li>
+					</ol>
+				</div>
+			</div>
+
+			<!-- 2、饭店logo以及定位 -->
+			<div class="hotel_banner" id="hotel_banner">
+				<div class="hotel_name" id="hotel_name">
+					<img src="img/shaozhanggui_logo.png" />
+				</div>
+				<dl>
+					<dt>精品少掌柜</dt>
+					<dd>特色:北京烤鸭、牛肉</dd>
+				</dl>
+				<p>
+					<span>24元</span>/人均
+				</p>
+			</div>
+			<ul class="hotel_address_tel" id="hotel_address_tel">
+				<li class="hotel_address">
+		            <img class="img_left" src="img/dingwei.png" />
+		            <a href="geolocation.html" title="北京市海淀区西北旺镇大牛坊二期" alt="北京市海淀区西北旺镇大牛坊二期">
+			            <p>北京市海淀区西北旺镇大牛坊二期</p>
+		            </a>
+                    <img class="img_right" src="img/arrow.png" />
+				</li> 
+				<li class="hotel_tel">
+                    <img class="img_left" src="img/tel.png" />
+                    <a href="tel:400-0000-688" title="电话:400-0000-688" alt="电话:400-0000-688">
+			            <p>电话:400-0000-688</p>
+                    </a>
+                    <img class="img_right" src="img/arrow.png" />
+				</li>
+			</ul>
+
+			<!-- 3、菜单列表 -->
+			<div class="menulist" id="menulist">
+		        <ul class="ul_menu" id="ul_menu">
+		            <li class="li_one">
+			            <a href="list_item.php">
+		                    <img src="img/diancan.png" />
+		                    <p>客户点餐</p>
+			            </a>
+		            </li>
+		            <li class="li_two">
+			            <a href="activity_list.php">
+		                    <img src="img/waimai.png" />
+		                    <p>优惠推送</p>
+			            </a>
+		            </li>
+		            <li class="li_three">
+			            <a href="book_seat.html">
+		                    <img src="img/yudingcanting.png" />
+		                    <p>预定餐厅</p>
+			            </a>
+		            </li>
+		            <li class="li_four">
+			            <a href="hotel_introduction.html">
+		                    <img src="img/dianpu_intro.png" />
+		                    <p>饭店详情</p>
+			            </a>
+		            </li>
+		            <li class="li_five">
+			            <a href="geolocation.html">
+		                    <img src="img/daohang.png" />
+		                    <p>导航到店</p>
+			            </a>
+		            </li>
+		            <li class="li_six">
+			            <a href="environment.html">
+		                    <img src="img/huanjing.png" />
+		                    <p>资质环境</p>
+			            </a>
+		            </li>
+		        </ul>
+
+			</div>
+		</section>
+		<!-- 底部 -->
+		<footer>
+			<ul class="footer_menu">
+				<li>
+					<a href="index.html">
+						<img src="img/home.png" />
+					</a>
+					<p>首页</p>
+				</li>
+				<li>
+					<a href="activity_list.php">
+						<img src="img/activity.png" />
+						
+					</a>
+					<p>活动</p>
+				</li>
+				<li>
+					<a>
+						<img src="img/orders.png" />
+					</a>
+					<p>订单</p>
+				</li>
+				<li>
+					<a href="my.html">
+						<img src="img/my.png" />
+					</a>
+					<p>我的</p>
+				</li>
+			</ul>
+		</footer>
+	</div>
+</body>
+</html>

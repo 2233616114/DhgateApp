@@ -1,0 +1,99 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+form{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+section{
+	width:100%;
+	height:100%;
+	-webkit-box-flex:1;
+	overflow-y:scroll;
+	background-color: #EEEEEE;
+}
+section .attitude{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background-color: #fff;
+	border-bottom:1px solid #f2f2f2;
+}
+section .attitude label{
+	margin-left:4%;
+	font-size:16px;
+}
+section .attitude select{
+	margin-left:50%;
+	font-size:14px;
+	color:gray;
+	border:none;
+}
+section .comment{
+	width:100%;
+	height:150px;
+	background-color: #fff;
+	border-bottom:1px solid #f2f2f2;
+}
+section .comment textarea{
+	width:96%;
+	height:100%;
+	border:none;
+	outline:none;
+	overflow:scroll;
+	padding:2%;
+	font-size:14px;
+}
+footer{
+	width:100%;
+	height:50px;
+	background-color: #202124;
+	position: fixed;/*固定定位*/
+	bottom:0px;
+	z-index:100;
+}
+footer input{
+	border:none;
+	outline:none;
+	width:30%;
+	height:100%;
+	color:#fff;
+	font-size:16px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	background-color:#009B85;
+	/*display: none;*/
+}

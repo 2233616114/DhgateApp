@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>my_pwd(修改密码)</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="stylesheet" type="text/css" href="css/my_pwd.css" />
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/my_pwd.js"></script>
+</head>
+<body>
+	<div class="con">
+		<header>
+			<img class="imgL" src="img/back.png" />
+			<p class="header_title">修改密码</p>
+		</header>
+		<section>
+			<form action="php/updatepwd.php" method="post" >
+			    <ul>
+			    	<li>请更换新密码</li>
+			    </ul>
+				<dl>
+					
+					<dd>
+						<input type="text" class="username" id="username" name="username" placeholder="请输入注册时用的手机号"></input>
+					</dd>
+				</dl>
+				<dl>
+					
+					<dd>
+						<input type="password" name="newpassword" class="pwd" id="pwd" placeholder="请输入8-20位新密码"></input>
+					</dd>
+				</dl>
+				<input type="submit" class="login" id="login" value="确定"></input>
+			</form>
+		</section>
+	</div>
+</body>
+</html>

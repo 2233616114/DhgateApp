@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>register-注册页面</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/register.css" />
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</head>
+<body> 
+    
+	<div class="con">
+		<header> 
+		    <img class="back" src="img/back.png" />
+			<p class="left">注册</p>
+		</header>
+		</header>
+		<section>
+		    <!-- 注册用户分为3个步骤 -->
+		    <form method="post" action="php/register.php">
+				<div class="section_content" id="section_content">
+				    <!-- 输入手机号部分 -->
+					<div class="content phone">
+						<input type="text" id="phone_number" class="phone_number" name="phone_number" placeholder="请输入手机号码"></input>
+						<br/>
+						
+					</div>
+					<!-- 设置密码部分 -->
+					<div class="content password">
+						<input type="password" class="pwd_one" id="pwd_one" name="pwd_one" placeholder="请输入密码(8-16位数字、字母及其组合)"></input>
+						<br/>
+						<input type="password" class="pwd_one" id="pwd_two" name="pwd_two" placeholder="请再次输入密码"></input>
+						<br/>
+						<div class="rules_total">
+							<input type="checkbox" class="rules" checked="checked" name="rules"></input>
+							<p>我已阅读并同意<a href="#"><<少掌柜用户协议>></a></p>
+						</div>
+						<!-- 点击提交按钮 -->
+						<input type="submit" value="提交" class="submit_pwd"></input>
+					</div>
+				</div>
+			</form>
+		</section>
+	</div>
+	
+</body>
+</html>

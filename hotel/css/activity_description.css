@@ -1,0 +1,197 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	display: box;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+}
+header{
+	width:100%;
+	height:40px;
+	background-color: rgba(0,0,0,.5);
+}
+header p{
+	color:#f2f2f2;
+	height:40px;
+	line-height: 40px;
+	font-size:20px;
+	margin-left:4%;
+}
+section{
+	width:100%;
+	-webkit-box-flex:1;
+	height:500px;
+	background-color: #f2f2f2;
+	overflow-y:scroll; 
+	/*margin-bottom:50px;*/
+}
+section .imgcontent{
+	width:100%;
+	height:240px;
+}
+section .imgcontent img{
+	width:100%;
+	height:100%;
+}
+section .dishname{
+	background-color: #fff;
+	width:100%;
+	height:60px;
+	text-indent:16px;
+	border-bottom:1px solid #f2f2f2;
+}
+section .dishname h3{
+	color:#000;
+    line-height:30px;
+    font-weight:400;
+}
+section .dishname p{
+	line-height: 20px;
+	color:gray;
+}
+section .price_add
+{
+	width:100%;
+	height:50px;
+	background-color: #fff;
+	position: relative;
+	margin-bottom:2px;
+}
+section .price_add p{
+	width:40%;
+	height:100%;
+	position: absolute;
+	top:0px;
+	left:5%;
+}
+section .price_add p img{
+	height:35%;
+	position: absolute;
+	top:20px;
+}
+section .price_add p span{
+	color:#F95F5B;
+	position: absolute;
+	left:15%;
+	top:20px;
+	font-size:18px;
+}
+section .price_add .addcontent{
+	width:50%;
+	height:100%;
+	position: absolute;
+	right:0px;
+	top:0px;
+	background-color: #fff;
+}
+section .price_add .addcontent .addmenu{
+	width:30px;
+	height:30px;
+	position: absolute;
+	right:10%;
+	top:14px;
+}
+section .price_add .addcontent .submenu{
+	width:30px;
+	height:30px;
+	position: absolute;
+	left:23%;
+	top:14px;
+	display: none;
+}
+section .price_add .addcontent span{
+	position: absolute;
+	top:20px;
+	left:55%;
+	display: none;
+}
+section .intro{
+	width:100%;
+	text-indent:18px;
+	background-color: #fff;
+}
+section .intro h3{
+	border-bottom:1px solid #f2f2f2;
+	font-weight:400;
+	height:30px;
+	line-height: 30px;
+}
+section .intro p{
+	width:94%;
+	line-height:24px;
+	padding:4px 4px 4px 4px;
+	padding-left:5%;
+	padding-right:3%;
+	font-size:14px;
+}
+footer{
+	width:100%;
+	height:50px;
+	background-color: #202124;
+	position: fixed;/*固定定位*/
+	bottom:0px;
+	z-index:100;
+}
+footer .gouwuche{
+	position: absolute;
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	background-color: #000;
+	left:5%;
+	top:-10px;
+}
+footer .gouwuche img{
+	width:100%;
+	height:100%;
+}
+/*购物车的商品计数*/
+footer .gouwuche .count{
+	position: absolute;
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background-color: #FF2600;
+	line-height:20px;
+	text-align:center;
+	top:-5px;
+	right:-5px;
+	color:#fff;
+	font-size:14px;
+	display: none;
+}
+footer dl{
+	position: absolute;
+	left:25%;
+	top:5px;
+	color:#F2F2F2;
+}
+footer dl dt{
+	color:lightgray;
+	font-size:14px;
+}
+footer dl span{
+	font-size:15px;
+}
+footer dl dd{
+	color:lightgray;
+	font-size:12px;
+	margin-top:5px;
+}
+footer button{
+	border:none;
+	outline:none;
+	width:30%;
+	height:100%;
+	color:#fff;
+	font-size:16px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	background-color: #009B85;
+	/*display: none;*/
+}

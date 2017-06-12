@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>HTML5页面直接调用百度地图API,获取当前位置，直接导航目的地</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/geolocation.css" />
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/geolocation.js"></script>
+    <!-- 调用百度地图API进行实时导航和定位 -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=k5I0MA1LKyFexG6e2GfkMuuYLDZlEXjH"></script> 
+</head>
+<body> 
+    <div class="con">
+        <header>
+            <img src="img/left_back.png" />
+        </header> 
+        <section>
+            <div id="allmap" style="height:540px;margin-top:50px;"></div>
+        </section>
+    </div>
+</body>  
+</html>  
+    <script type="text/javascript">  
+        var map = new BMap.Map("allmap");  
+        // 获取终点的经纬度
+        var point = new BMap.Point(116.2417372338,40.0922913601);
+        map.centerAndZoom(point, 16);  
+        map.enableScrollWheelZoom(); 
+
+        var myIcon = new BMap.Icon("img/myicon.png",new BMap.Size(30,30),{
+            anchor: new BMap.Size(10,10)    
+        });
+        var marker=new BMap.Marker(point,{icon: myIcon});  
+        map.addOverlay(marker); //增加覆盖物
+        
+        //实例化地理位置对象
+        var geolocation = new BMap.Geolocation();
+        // 调用获取当前地址位置的方法
+        geolocation.getCurrentPosition(function(r){
+            if(this.getStatus() == BMAP_STATUS_SUCCESS){
+                var mk = new BMap.Marker(r.point);
+                map.addOverlay(mk);//增加覆盖物
+                //获取起点(当前地理位置)坐标
+                var latCurrent = r.point.lat;
+                var lngCurrent = r.point.lng;
+                location.href="http://api.map.baidu.com/direction?origin="+latCurrent+","+lngCurrent+"&destination=40.0922913601,116.2417372338&mode=driving&region=北京 &output=html";
+
+            }
+            else {
+                alert('failed'+this.getStatus());
+            }        
+        },{enableHighAccuracy: true})
+
+        map.addOverlay(marker); 
+        var licontent=""; 
+        // var licontent=""; 
+            licontent+="<span><strong>地址：</strong>北京市海淀区西北旺大牛坊社区二期</span><br>";  
+            licontent+="<span><strong>电话：</strong>4000-320-588</span><br>";   
+        var opts = { 
+            width : 200,
+            height: 80,
+        };         
+        var  infoWindow = new BMap.InfoWindow(licontent, opts);  
+        marker.openInfoWindow(infoWindow); //打开窗口 
+        marker.addEventListener('click',function(){
+            marker.openInfoWindow(infoWindow);
+        });  
+        //页面的回退
+        $(".-back-arrow").on("click",function(){
+            window.hostory.go(-2);
+        });
+    </script>   

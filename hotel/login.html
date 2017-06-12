@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>login-登录</title>
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<div class="con">
+		<header>
+		    <img class="back" src="img/back.png" />
+			<p class="left">登录</p>
+			<!-- 跳转至注册页面 -->
+			<p class="right">
+				<a href="register.html">注册</a>
+			</p>
+		</header>
+		<section>
+			<form action="php/login.php" method="post" >
+			    <ul>
+			    	<li>账号密码登录</li>
+			    </ul>
+				<dl>
+					<dt><label for="username">用户名：</label></dt>
+					<dd>
+						<input type="text" class="username" id="username" name="username" placeholder="请输入手机号"></input>
+					</dd>
+				</dl>
+				<dl>
+					<dt><label for="pwd">密&nbsp;码：</label></dt>
+					<dd>
+						<input type="password" name="password" class="pwd" id="pwd" placeholder="请输入密码"></input>
+					</dd>
+				</dl>
+				<input type="submit" class="login" id="login" value="登录"></input>
+			</form>
+		</section>
+	</div>
+</body>
+</html>

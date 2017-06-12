@@ -1,0 +1,75 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+.con header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+.con section{
+	width:100%;
+    -webkit-box-flex:1;
+    overflow-y:auto;
+    background-color: #F6F6F6;
+}
+section dl{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #f2f2f2;
+	background-color: #fff;
+}
+section dl dt{
+	float:left;
+	width:26%;
+	height:100%;
+	padding-left:4%;
+	color:gray;
+}
+section dl dd{
+	float:left;
+	width:70%;
+	height:100%;
+}
+section dl dd input{
+	width:99%;
+	height:60%;
+	font-size:16px;
+	border:none;
+	outline:none;
+}
+section button{
+	width:96%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	background-color: #009B85;
+	color:#fff;
+	font-size:18px;
+	border:none;
+	outline:none;
+	margin-left:2%;
+}

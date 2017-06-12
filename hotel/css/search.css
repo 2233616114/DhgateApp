@@ -1,0 +1,123 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+.con header{
+	width:100%;
+	height:60px;
+	/*background-color: #65a031;*/
+	background-color: #009B85;
+	position:relative;
+}
+header .img_back{
+	width:35px;
+	height:35px;
+	position: absolute;
+	left:2%;
+	top:10px;
+}
+header .search{
+	position: absolute;
+	top:13px;
+	width:70%;
+	height:32px;
+	line-height: 32px;
+	background-color: #fff;
+	border-radius: 8px;
+	margin-left:15%;
+}
+header .search img{
+	margin-left:2%;
+	margin-top:8px;
+	float:left;
+}
+header .search input{
+	width:85%;
+	height:70%;
+	border:none;
+	outline:none;
+	float:right;
+	font-size:15px;
+	margin-top:-7px;
+	margin-left:0px;
+}
+header .submit{
+	position: absolute;
+	color:#fff;
+	right:2%;
+	top:16px;
+	background-color: transparent;
+	border:none;
+	outline:none;
+	font-size:16px;
+	padding:4px;
+}
+.con section{
+	width:100%;
+    -webkit-box-flex:1;
+    overflow-y:auto;
+    background-color: #F6F6F6;
+
+}
+
+section ul{
+	width:100%;
+}
+section ul li{
+	width:100%;
+	height:70px;
+	background-color:#fff;
+	border-bottom: 1px solid #f2f2f2;
+	position: relative;
+}
+section ul li .imgcontent{
+	position: absolute;
+	width:50px;
+	height:50px;
+	left:4%;
+	top:10px;
+	background-color: yellow;
+}
+section ul li .imgcontent img{
+	width:100%;
+	height:100%;
+}
+section ul li .introcontent{
+	position: absolute;
+	width:40%;
+	height:90%;
+	left:26%;
+	top:0px;
+}
+section ul li .introcontent h6{
+	font-size:14px;
+	margin-top:10px;
+	font-weight:600;
+}
+section ul li .introcontent dl{
+	margin-top:10px;
+}
+section ul li .introcontent dd{
+	color:gray;
+	font-size:13px;
+	line-height:15px;
+}
+section ul li p{
+	width:30%;
+	height:100%;
+	position: absolute;
+	right:0px;
+	top:35px;
+	font-size:13px;
+	color:gray;
+}
+section .addcontent span{
+	position: absolute;
+	top:36px;
+	left:46%;
+	display: none;
+}

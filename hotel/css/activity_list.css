@@ -1,0 +1,182 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+.con header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+section{
+	width:100%;
+	height:100%;
+	-webkit-box-flex:1;
+	overflow-y:scroll;
+	background-color: #EEEEEE;
+}
+section .list{
+	width:100%;
+	background-color: #fff;
+	margin-top:6px;
+
+}
+section .list .tuijian_img{
+	width:100%;
+	height:22px;
+	text-align:center;
+}
+section .list img{
+	height:100%;
+}
+section .list p{
+	width:100%;
+	height: 25px;
+	line-height: 25px;
+	color:#999999;
+	font-size:12px;
+	text-align:center;
+	margin-bottom:10px;
+}
+section .list ul{
+	width:100%;
+}
+section .list ul li{
+	width:30%;
+	height:130px;
+	background-color: #fff;
+	margin-left:2.5%;
+	float:left;
+	margin-bottom:10px;
+	text-align:center;
+	position: relative;/*相对定位*/
+}
+section .list ul li .dishimg{
+	width:80%;
+	height:70px;
+}
+section .list ul li .discount{
+	position: absolute;/*绝对定位*/
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	left:10%;
+	background-color:rgba(87,86,80,.9);
+	top:0px;
+	color:#fff;
+	text-align:center;
+	font-size:12px;
+}
+section .list ul li .name{
+	color:#000;
+	text-align:left;
+	margin-left:10%;
+	height:15px;
+}
+section .list ul li .price{
+	height:18px;
+	background-color: #fff;
+	margin-left:10%;
+	color:#FA6965;
+	text-align:left;
+}
+section .list ul li .price img{
+	height:70%;
+	margin-top:5px;
+}
+section .list ul li .price span{
+	font-size:12px;
+
+}
+section .list ul li .del_price{
+	position: absolute;
+	height:16px;
+	color:lightgray;
+	right:5%;
+	bottom:0px;
+	width:35%;
+	background-color:#fff;
+	text-decoration:line-through;/*删除线*/
+}
+section .list ul li .del_price img{
+	height:70%;
+	margin-top:5px;
+}
+section .list ul li .del_price span{
+	font-size:11px;
+}
+.con footer{
+	width:100%;
+	height:60px;
+	background-color: lightgray;
+}
+.con footer .footer_menu{
+	width:100%;
+	height:100%;
+}
+.con footer .footer_menu li{
+	width:25%;
+	height:100%;
+	float:left;
+	background-color:#fff;
+	position: relative;
+}
+.con footer .footer_menu li a{
+	display: block;
+	position: absolute;
+	width:40px;
+	height:40px;
+	left:50%;
+	top:20%;
+	transform:translate(-50%,-20%);
+	color:#fff;
+}
+.con footer .footer_menu li a img{
+	width:100%;
+	height:100%;
+}
+.con footer .footer_menu li p{
+	position: absolute;
+	font-size:12px;
+    width:50%;
+    left:25%;
+    text-align:center;
+    bottom:3px;
+    color:#000;
+}
+.con footer .footer_menu li:nth-child(2) a img{
+	width:70%;
+	height:70%;
+	position: absolute;
+	left:5%;
+	top:8%;
+}
+.con footer .footer_menu li:nth-child(2) a img{
+	width:95%;
+	height:95%;
+}
+/*清除浮动*/
+.clear{
+	clear:both;
+}

@@ -1,0 +1,59 @@
+
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+section{
+	width:100%;
+	height:100%;
+	-webkit-box-flex:1;
+	overflow-y:scroll;
+	background-color: #EEEEEE;
+}
+section div{
+	width:40%;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	border:1px solid lightgray;
+	border-radius:5px;
+	padding:3px 5px;
+	position:relative;
+	left:30%;
+	top:10px;
+	background-color: #fff;
+	color:gray;
+}
+footer{
+	width:100%;
+	height: 40px;
+	background-color: gray;
+	
+}

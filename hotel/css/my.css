@@ -1,0 +1,138 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+.con header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+.con section{
+	width:100%;
+    -webkit-box-flex:1;
+    overflow-y:auto;
+    background-color: #F6F6F6;
+}
+section .user{
+	margin-top:5px;
+	height:100px;
+	background-color:#009B85; 
+	margin-bottom:5px;
+}
+section ul{
+	width:100%;
+}
+section ul li{
+	width:100%;
+	height:60px;
+	background-color: #Fff;
+	/*background-color: lightgray;*/
+	border-bottom:1px solid lightgray;
+}
+section ul li a{
+	display: block;
+	width:100%;
+	height:100%;
+}
+section ul li a img{
+	float:left;
+	height:50%;
+	margin-top:5%;
+	margin-left:4%;
+}
+section ul li a p{
+	float:left;
+	color:#000;
+	height:60px;
+	line-height: 60px;
+	margin-left:4%;
+}
+section .user .my_userlogo{
+	height:100%;
+	float:left;
+    margin-left:4%;
+}
+section .user .login_mess{
+	float:left;
+	margin-left:8%;
+	height:100px;
+	line-height:100px;
+	color:#fff;
+}
+section .user .right_img{
+	float:right;
+	margin-right:4%;
+	margin-top:35px;
+}
+.con footer{
+	width:100%;
+	height:60px;
+	background-color: lightgray;
+}
+.con footer .footer_menu{
+	width:100%;
+	height:100%;
+}
+.con footer .footer_menu li{
+	width:25%;
+	height:100%;
+	float:left;
+	background-color:#fff;
+	position: relative;
+}
+.con footer .footer_menu li a{
+	display: block;
+	position: absolute;
+	width:40px;
+	height:40px;
+	left:50%;
+	top:20%;
+	transform:translate(-50%,-20%);
+	color:#fff;
+}
+.con footer .footer_menu li a img{
+	width:100%;
+	height:100%;
+}
+.con footer .footer_menu li p{
+	position: absolute;
+	font-size:12px;
+    width:50%;
+    left:25%;
+    text-align:center;
+    bottom:3px;
+    color:#000;
+}
+.con footer .footer_menu li:nth-child(2) a img{
+	width:70%;
+	height:70%;
+	position: absolute;
+	left:5%;
+	top:8%;
+}
+.con footer .footer_menu li:nth-child(2) a img{
+	width:95%;
+	height:95%;
+}

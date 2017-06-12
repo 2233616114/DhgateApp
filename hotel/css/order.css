@@ -1,0 +1,190 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;/*溢出隐藏*/
+	display: box;
+	display: -webkit-box;/*弹性盒*/
+	-webkit-box-orient:vertical;/*竖直方向上平分*/
+}
+.con header{
+	width:100%;
+	height:50px;
+	/*background-color: #65a031;*/
+	background-color: #009B85;
+	position:relative;
+}
+header .imgL{
+	width:40px;
+	height:40px;
+	position: absolute;
+	left:5%;
+	top:5px;
+}
+header p{
+	position: absolute;
+	width:50%;
+	height:50px;
+	line-height:50px;
+	left:25%;
+	text-align:center;
+	font-size:22px;
+    color:#fff;
+}
+.con section{
+	width:100%;
+    -webkit-box-flex:1;
+    overflow-y:auto;
+    /*background-color: #F5F5F5;*/
+    background-color: #F5F5F5;
+}
+section p{
+	width:70%;
+	/*height:45px;*/
+	line-height: 45px;
+	color:#000;
+	font-weight:bold;/*加粗设置字体*/
+	font-size:20px;
+	float:left;
+	padding-left:5%;
+}
+section a{
+	float:right;
+	height:45px;
+	line-height: 45px;
+	color:#3190E8;
+	padding-right:2%;
+	font-weight:bold;
+}
+section ul{
+	width:100%;
+}
+section ul li{
+	width:100%;
+	height:140px;
+	background-color: #fff;
+	border-bottom:1px solid lightgray;
+	position:relative;/*相对定位*/
+}
+section ul li .user{
+	width:100%;
+	height:40px;
+	color:#000;
+	background-color: #fff;
+	position:relative;
+}
+section ul li .user span{
+	height:40px;
+	line-height:40px;
+    position: absolute;
+    left:20%;
+}
+section ul li .user .order{
+	height:40px;
+	line-height:40px;
+    position: absolute;
+    color:gray;
+    left:50%;
+}
+section ul li .user img{
+	height:100%;
+	margin-left:4%;
+	margin-right:2%;
+	position: absolute;
+}
+section ul li .time{
+	margin-left:15%;
+	height:20px;
+	line-height:20px;
+	color:#9F9F9F;
+	font-size:14px;
+	font-weight:100;
+}
+section ul li .dishname{
+	margin-left:15%;
+	/*height:20px;*/
+	line-height:20px;
+	color:gray;
+	font-size:15px;
+	font-weight:100;
+}
+section ul li .price{
+	font-size:15px;
+	color:#000;
+	font-weight:400;
+	margin-left:15%;
+	height:20px;
+	line-height:20px;
+	/*background-color: lightblue;*/
+}
+section ul li .price img{
+	height:70%;
+}
+section ul li .price span{
+	height:100%;
+	line-height: 100%;
+}
+section ul li button{
+	position: absolute;
+    bottom: 10px;
+    right: 4%;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #009B85;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    color: gray;
+}
+.con footer{
+	width:100%;
+	height:60px;
+	background-color: lightgray;
+}
+.con footer .footer_menu{
+	width:100%;
+	height:100%;
+}
+.con footer .footer_menu li{
+	width:25%;
+	height:100%;
+	float:left;
+	background-color:#fff;
+	position: relative;
+}
+.con footer .footer_menu li a{
+	display: block;
+	position: absolute;
+	width:40px;
+	height:40px;
+	left:50%;
+	top:20%;
+	transform:translate(-50%,-20%);
+	color:#fff;
+}
+.con footer .footer_menu li a img{
+	width:100%;
+	height:100%;
+}
+.con footer .footer_menu li p{
+	position: absolute;
+	font-size:12px;
+    width:50%;
+    left:25%;
+    text-align:center;
+    bottom:3px;
+    color:#000;
+}
+.con footer .footer_menu li:nth-child(2) a img{
+	width:70%;
+	height:70%;
+	position: absolute;
+	left:5%;
+	top:8%;
+}
+.con footer .footer_menu li:nth-child(2) a img{
+	width:95%;
+	height:95%;
+}
+.clear{
+	clear:both;/*清除浮动*/
+}

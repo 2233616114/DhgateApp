@@ -1,0 +1,199 @@
+.con{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	display: -webkit-box;
+	display: box;
+	-webkit-box-orient:vertical;
+}
+.con header{
+	width:100%;
+	height:50px;
+	background-color: #009B85;
+	color:#fff;
+	font-size:16px;
+	position: relative;
+}
+.con header img{
+	height:30px;
+	position: absolute;;
+	top:10px;
+	left:2%;
+}
+.con header .left{
+	font-size:18px;
+	color:#fff;
+	height:30px;
+	line-height:30px;
+	position: absolute;
+	left:20%;
+	top:10px;
+}
+.con section{
+	width:100%;
+    -webkit-box-flex:1;/*弹性盒布局*/
+}
+section ul{
+	width:100%;
+    height:40px;
+}
+section ul li{
+	float:left;
+	height:40px;
+	width:33%;
+	position: relative;
+}
+section ul li img{
+	width:30px;
+	height:30px;
+	margin-top:5px;
+	position: absolute;
+}
+section ul li span{
+	font-size:14px;
+	color:#888888;
+	height:30px;
+	line-height:30px;
+	position:absolute;
+	right:3%;
+	top:20%;
+}
+section ul li:first-child span{
+	position: absolute;
+	left:12%;
+}
+section .section_content{
+	width:100%;
+	background-color: #ddd;
+}
+section .phone{
+	width:100%;
+	/*display: none;*/
+}
+section .phone .phone_number{
+	border:none;
+	outline:none;
+	border-top:1px solid #ddd;
+	height:35px;
+	line-height:35px;
+	padding-left :5%;
+	border-bottom:1px solid #ddd;
+	font-size:16px;
+	width:100%;
+	margin-top:20px;
+}
+section .phone .yanzhengma{
+	width:92%;
+	height:35px;
+	line-height:35px;
+	margin-left:4%;
+	font-size:18px;
+	color:#fff;
+	background-color: #009B85;
+	border:none;
+	/*outline:none;*/
+	margin-top:10px;
+}
+section .password .rules_total{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	position: relative;
+}
+section .password .rules_total input{
+	position: absolute;
+	display: block;
+	width:18px;
+	height:18px;
+	left:5%;
+	top:7px;
+}
+section .password .rules_total p{
+	position: absolute;
+	width:80%;
+	left:15%;
+    font-size:14px;
+}
+section .password .rules_total p a{
+	text-decoration: none;
+	color:#009B85;
+}
+section .yanzheng{
+	width:100%;
+	/*display: none;*/
+}
+section .yanzheng .sendyanzheng{
+	width:100%;
+	height:35px;
+	line-height: 35px;
+	position: relative;
+	margin-top:10px;
+}
+section .yanzheng .sendyanzheng .text_yanzheng{
+	width:100%;
+	height:35px;
+	line-height: 35px;
+	font-size:16px;
+	border:none;
+	outline:none;
+	padding-left:5%;
+	position: absolute;
+}
+section .yanzheng .sendyanzheng .btn_yanzheng{
+	position: absolute;
+	height:35px;
+	line-height: 35px;
+	font-size:16px;
+	right:5%;
+    border:none;
+    outline:none;
+    background-color:#009B85 ;
+    color:#fff;
+    border-radius:3px;
+    padding:0px 5px 0px 5px;
+}
+section .yanzheng .submit{
+	width:92%;
+	height:35px;
+	line-height:35px;
+	margin-left:4%;
+	font-size:18px;
+	color:#fff;
+	background-color: #009B85;
+	border:none;
+	outline:none;
+	margin-top:10px;
+}
+section .password{
+	width:100%;
+	/*height:200px;*/
+	/*display: none;*/
+}
+section .password .pwd_one{
+	border:none;
+	outline:none;
+	border-top:1px solid #ddd;
+	height:35px;
+	line-height:35px;
+	padding-left :5%;
+	border-bottom:1px solid #ddd;
+	font-size:16px;
+	width:100%;
+	margin-top:10px;
+}
+section .password .submit_pwd{
+	width:92%;
+	height:35px;
+	line-height:35px;
+	margin-left:4%;
+	font-size:18px;
+	color:#fff;
+	background-color: #009B85;
+	border:none;
+	outline:none;
+	margin-top:10px;
+}
+.on{
+	font-weight:bold;
+	color:#009B85;
+}
