@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link rel="stylesheet" href="css/about.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+</head>
+<body style="background-color:#fff">
+	<div id="about-header">
+		<div class="h-top">
+			<ul class="h-t-nav">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="index_about.html">About</a>
+				</li>
+				<li>
+					<a href="index_car.html">Cars</a>
+				</li>
+				<li>
+					<a href="index_service.html">Services</a>
+				</li>
+				<li>
+					<a href="index_contacts.html">Contacts</a>
+				</li>
+			</ul>
+		</div>
+		<div class="h-logo">
+			<img src="images/logo.png" alt="" >
+		</div>
+	</div>
+	<div id="about-merits">
+		<div class="m-left">
+			<h3>A Few Words About Us</h3>
+			<div class="m-l-img">
+				<!-- <img src="images/page2_img1.jpg" alt=""> -->
+				<a href="/">Lorem ipsum dolor sit amet, consecteturpiscinger elit.</a>
+				<p class="one">Want to know more about the free theme produced by TemplateMonster? Click this link.</p>
+				<p class="two">One theme is not enough for you to make a choice? Browse the vast variety of car templates at TemplateMonster’s website.</p>
+			</div>
+			<p class="cras">Cras er te facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad nibh odio ut veliter loki molo. Vivamus at magna non nunc tristique rhoncus. Aliquam nibh ante, egestas id dictum atermolok commodo luctus erito libero.</p>
+			<p class="last">Praesent faucibus malesuada faucibus. Donec laoreet metus id laoreet malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam consectetur orci sed nulla facilisis consequatertolomon. Curabitur vel lorem sit amet nulla ullamcorper fermentum.</p>
+		</div>
+		<div class="m-right">
+			<ul class="m-r-list">
+				<li class="m-r-l-title"><h2>Why Choose Us</h2></li>
+				<li>
+					<div class="no">1</div>
+					<a href="">Econsecteturpiscinger elit</a>
+					<p>Sit meter ultricies erat rutrum. Cras er te facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad nibh odio ut</p>
+				</li>
+				<li>
+					<div class="no">2</div>
+					<a href="">Fconsecteturpiscingerelite</a>
+					<p>Git meter ultricies erat rutrum. Cras er te facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad nibh odio</p>
+				</li>
+				<li>
+					<div class="no">3</div>
+					<a href="">Hconsecteturpiscingeliter</a>
+					<p>Hit meter ultricies erat rutrum. Cras er te facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuad nibut velit.</p>
+				</li>
+				<li>
+					<div class="no">4</div>
+					<a href="">Mconsecteturpiscinr elitwert</a>
+					<p>Kit meter ultricies erat rutrum. Cras er te facilisis, nulla vel viver auctor, leo magna sodales felis, quis malesuabh odio uter</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="about-testimonials">
+		<h2>Testimonials</h2>
+		<ul class="t-show">
+			<li>
+				<i>Lorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magna...</i>
+				<p>Tim Barkley</p>
+			</li>
+			<li>
+				<i>Dorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctor, leo magwe...</i>
+				<p>Linda Grey</p>
+			</li>
+			<li>
+				<i>Gorem ipsum dolor sit amet, consectetur adipiscinger elit. In mollis erat mattis neque facilisis, sit ameter ultricies erat rutrum. Cras facilisis, nulla vel viver auctoro magndales...</i>
+				<p>Ann Pool</p>
+			</li>
+		</ul>
+	</div>
+	<!--底部footer区域-->
+	<div class="footer" id="footer">
+		<div class="content_footer">
+			<p class="footer_paral"><span>Tour<a href="javascript:;">T</a>axi</span>  Copyright © 2014.Company name All rights reserved.网页模板</p>
+			<ul class="footer_ul">
+				<li><a href="#" class="fa fa-twitter alist">
+				</a></li>
+				<li><a href="#" class="fa fa-facebook alist">
+				</a></li>
+				<li><a href="#" class="fa fa-google-plus alist">
+				</a></li>
+			</ul>
+			<p class="footer_parar">
+				Call Us: + 1800 559 6580
+			</p>
+		</div>
+	</div>
+    <!-- 返回顶部 -->
+	<div class="hide" id="hide"></div>
+</body>
+	<script src="js/jquery1.7.js"></script>
+	
+	<script type="text/javascript">
+		$(function(){
+			$.ajax({
+		         url: "data/about.json",
+		         type: "get",
+		         dataType: "json",
+		         success: function(data){
+		                     var html = '<img ' ; 
+		                     $.each(data.nav, function(k,v){
+		                           html += 'src='+v.img;
+		                     });
+		                     html+='>'
+		                     $('.m-l-img').append(html);
+		                },
+		          error:function(){
+		          	alert("图片请求失败");
+		          }
+		     });
+		})  
+
+		$(function(){
+	$("ul.h-t-nav li>a").eq(1).css("background","#FDC903");
+})
+
+		$(".h-logo>img").click(function(){
+	location.href = "index.html"
+})
+	</script>
+	<script src="js/about.min.js"></script>
+</html>
