@@ -1,0 +1,67 @@
+{
+  "intro.html": {
+    "href": "intro.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/intro.js",
+      "data/intro.json",
+      "css/intro.css",
+      "img/home.png",
+      "img/back.png"
+    ],
+    "refer": [
+      "index1.html"
+    ],
+    "priority": 0
+  },
+  "list.html": {
+    "href": "list.html",
+    "resources": [
+      "js/zepto.min.js",
+      "js/list.js",
+      "data/list.json",
+      "css/list.css",
+      "img/home.png",
+      "img/back.png"
+    ],
+    "refer": [
+      "intro.html",
+      "index1.html"
+    ],
+    "priority": 0
+  },
+  "index1.html": {
+    "href": "index1.html",
+    "resources": [
+      "css/index.css",
+      "js/jquery1.7.js",
+      "js/zepto.min.js",
+      "js/index.js",
+      "img/m_arrow_up.png",
+      "img/m_arrow_down.png",
+      "img/home.png",
+      "img/back.png",
+      "img/14.jpg"
+    ],
+    "refer": [
+      "list.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "css/\u0015ýu.css",
+      "js/zepto.min.js",
+      "js/\u0015ýu.js",
+      "img/travel5.jpg",
+      "img/travel2.jpg",
+      "img/travel3.jpg",
+      "img/travel4.jpg"
+    ],
+    "refer": [
+      "index1.html"
+    ],
+    "priority": 0
+  }
+}
