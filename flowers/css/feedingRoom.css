@@ -1,0 +1,135 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.feedingroomcon{
+	width:100%;
+	height:100%;
+	display: box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	top:0px;
+}
+.feedingroomcon header{
+	width:100%;
+	height:44px;
+	background-color: #2C89E6;
+	position: relative;
+}
+.feedingroomcon header .fanhui{
+	position: absolute;
+	width:9%;
+	left:1%;
+	top:5px;
+}
+.feedingroomcon header .saoyisao{
+	width:9%;
+	position: absolute;
+	right:2%;
+	top:5px;
+}
+.feedingroomcon section{
+	width:100%;
+	height:524px;
+	background-color:#fff;
+}
+.feedingroomcon section .btns{
+	width:100%;
+	height:50px;
+	background-color:#FFFFFF;
+}
+.feedingroomcon section .btns button{
+	height:30px;
+	width:94px;
+	margin-left:5px;
+	border-radius:5px;
+	color:#2C89E6;
+	margin-top:10px;
+	outline:none;
+	border:none;
+	border:1px solid #2C89E6;
+	background-color: transparent;
+}
+.feedingroomcon section .allcontent{
+	width:100%;
+    background-color: #fff;
+    margin-top:10px;
+}
+.feedingroomcon section .allcontent .content{
+	width:100%;
+	display: none;
+}
+.feedingroomcon section .allcontent .content select{
+	width:94px;
+	height:37px;
+	border-radius:5px;
+	border:1px solid #2C89E6;
+	color:lightgrey;
+	margin-left:2%;
+}
+.feedingroomcon section .allcontent .content input{
+	display: inline;
+	width:94px;
+	height:37px;
+	border-radius:5px;
+	border:1px solid #2C89E6;
+	color:lightgrey;
+	margin-left:2%;
+	margin-top:10px;
+}
+.feedingroomcon section .allcontent .content .chu-text{
+	display: inline;
+	width:46%;
+	height:37px;
+	border-radius:5px;
+	border:1px solid #2C89E6;
+	color:lightgrey;
+	margin-left:2%;
+}
+.feedingroomcon section .allcontent .content .chu-btn{
+	display: inline;
+	width:46%;
+	height:37px;
+	border-radius:5px;
+	border:1px solid #2C89E6;
+	color:lightgrey;
+	margin-left:2%;
+	background-color: #2C89E6;
+	color:#fff;
+	text-align: center;
+}
+.feedingroomcon section .allcontent .content p{
+	color:gray;
+	text-align:center;
+	margin-top:10px;
+}
+.feedingroomcon section .allcontent .content .queren{
+	width:96%;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	color:#fff;
+	background-color: #2C89E6;
+	border:none;
+	outline:none;
+	margin-top:10px;
+	border-radius:5px;
+	position: relative;
+	left:2%;
+}
+.feedingroomcon section .allcontent .content1 select{
+	width:46%;
+	height:37px;
+	border-radius:5px;
+	border:1px solid #2C89E6;
+	color:lightgrey;
+	margin-left:2%;
+	margin-top:10px;
+}
+.feedingroomcon section .allcontent .on{
+	display: block;
+}

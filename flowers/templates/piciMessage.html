@@ -1,0 +1,55 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+    </ion-nav-bar> 
+	<ion-content class="picimesscon" id="picimesscon">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <p>批次基本信息</p>
+	    </header>
+	    <section>
+	    	<div class="banner">
+	    		<img src="img/photo10.jpg" />
+	    	</div>
+	    	<ul>
+	        	<li>
+	        		<a href="#/piciMessage">
+	        			<img src="img/shengchandanwei.png" />
+		        		<p>生产单位:{{datas.picimess.producedanwei}}</p>
+	        		</a>
+	        	</li>
+	        	<li>
+	        		<img src="img/picihao.png" />
+	        		<p>质量合格证:{{datas.picimess.quantity}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/pinzhong.png" />
+	        		<p>品种:{{datas.picimess.pinzhong}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/pinxi.png" />
+	        		<p>雄性:{{datas.picimess.male}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/shuliang.png" />
+	        		<p>雌性:{{datas.picimess.female}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/shuliang.png" />
+	        		<p>课题名称:{{datas.picimess.title}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/shuliang.png" />
+	        		<p>使用单位:{{datas.picimess.usedanwei}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/shuliang.png" />
+	        		<p>出售时间:{{datas.picimess.saletime}}</p>
+	        	</li>
+	        	<li>
+	        		<img src="img/shuliang.png" />
+	        		<p>接收时间:{{datas.picimess.jieshoutime}}</p>
+	        	</li>
+	        </ul>
+	    </section>
+	</ion-content>
+</ion-view>

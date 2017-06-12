@@ -1,0 +1,100 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style-type:none;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.flowerinfocon{
+	width:100%;
+	height:100%;
+	display: box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	top:0px;
+}
+.flowerinfocon header{
+	width:100%;
+	height:44px;
+	background-color: #2C89E6;
+	position: relative;
+}
+.flowerinfocon header .fanhui{
+	position: absolute;
+	width:9%;
+	left:1%;
+	top:5px;
+}
+.flowerinfocon header input{
+	height:30px;
+	width:45%;
+	position:absolute;
+	left:20%;
+	top:5px;
+	background-color: transparent;
+	border:1px solid lightgray;
+	border-radius:5px 0px 0px 5px;
+	color:#70C2FF;
+}
+.flowerinfocon header select{
+	position: absolute;
+	left:65%;
+	top:5px;
+	height:30px;
+	background-color:transparent;
+	border:1px solid lightgray;
+	border-radius:0px 5px 5px 0px;
+	color:#70C2FF;
+}
+.flowerinfocon header .saoyisao{
+	width:9%;
+	position: absolute;
+	right:2%;
+	top:5px;
+}
+.flowerinfocon section{
+	width:100%;
+	-webkit-box-flex:1;
+}
+.flowerinfocon section .banner{
+	width:100%;
+	height:150px;
+}
+.flowerinfocon section .banner img{
+	width:100%;
+	height:100%;
+}
+.flowerinfocon section ul{
+	width:100%;
+	list-style: none;
+}
+.flowerinfocon section ul li{
+	width:100%;
+	height:50px;
+	position: relative;
+}
+.flowerinfocon section ul li:nth-child(even){
+	background-color: #EFEFF4;
+}
+.flowerinfocon section ul li img{
+	width:30px;
+	position: absolute;
+	left:2%;
+	top:10px;
+}
+.flowerinfocon section ul li p{
+	color:gray;
+	position: absolute;
+	left:15%;
+	top:12px;
+}
+.flowerinfocon section ul li .youjiantou{
+	width:15px;
+	position: absolute;
+	left:90%;
+}
+

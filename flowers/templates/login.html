@@ -1,0 +1,29 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+    </ion-nav-bar> 
+	<ion-content class="con" id="con">
+	    <!-- <ion-nav-bar class="bar-stable hide">
+		    <ion-nav-back-button>
+		    </ion-nav-back-button>
+		</ion-nav-bar> -->
+	    <header>
+	        <div class="imgcontent">
+		        <img src="img/photo10.jpg" />
+	        </div>
+	    </header>
+	    <section>
+	        <div class="content">
+		         <h3>景物管理系统v4.0.1</h3>
+		         <form action="" method="get">
+	                <input type="text"  class="username" id="username" ng-model="username" placeholder="用户名" >
+	                <input type="password" class="password" id="password" ng-model="password" placeholder="密码" >
+	                <input type="checkbox" name="">
+	                <span class="remind" id="remind">记住密码</span>
+	                <!--<a href="tab-account.html"><input type="button" value="登录" class="loginbtn" id="loginbtn"></a>-->
+	                <input type="button" value="登录" ng-click="authenticate(username,password)" class="loginbtn" id="loginbtn">
+	                <span class="problem">登录时遇到问题?</span>
+		         </form>
+	        </div>
+	    </section>
+	</ion-content>
+</ion-view>

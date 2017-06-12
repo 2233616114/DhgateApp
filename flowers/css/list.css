@@ -1,0 +1,96 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style-type:none;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.listcon{
+	width:100%;
+	height:100%;
+	display: box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	top:0px;
+}
+.listcon header{
+	width:100%;
+	height:44px;
+	background-color: #2C89E6;
+	position: relative;
+}
+.listcon header .fanhui{
+	position: absolute;
+	width:9%;
+	left:1%;
+	top:5px;
+}
+.listcon header input{
+	height:30px;
+	width:60%;
+	position:absolute;
+	left:20%;
+	top:5px;
+	background-color: transparent;
+	border:1px solid lightgray;
+	border-radius:5px;
+	color:#70C2FF;
+}
+.listcon header select{
+	position: absolute;
+	left:65%;
+	top:5px;
+	height:30px;
+	background-color:transparent;
+	border:1px solid lightgray;
+	border-radius:0px 5px 5px 0px;
+	color:#70C2FF;
+}
+.listcon header .saoyisao{
+	width:9%;
+	position: absolute;
+	right:2%;
+	top:5px;
+}
+.listcon section{
+	width:100%;
+	-webkit-box-flex:1;
+}
+.listcon section ul{
+	width:100%;
+	list-style: none;
+}
+.listcon section ul li{
+	width:100%;
+	height:50px;
+	position: relative;
+}
+.listcon section ul li img{
+	width:30px;
+	position: absolute;
+	left:2%;
+	top:10px;
+}
+.listcon section ul li p{
+	color:gray;
+	position: absolute;
+	left:15%;
+	top:12px;
+}
+.listcon section .queren{
+	width:96%;
+	border:none;
+	outline: none;
+	background-color: #387FF5;
+	position: relative;
+	left:2%;
+	border-radius: 5px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	color:#fff;
+}

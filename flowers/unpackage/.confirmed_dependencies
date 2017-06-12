@@ -1,0 +1,32 @@
+{
+  "index.html": {
+    "resources": [
+      "lib/ngCordova/dist/ng-cordova.js",
+      "js/services.js",
+      "js/adminController.js",
+      "css/font-awesome.css",
+      "css/classDetails.css",
+      "templates/tab-account.html",
+      "css/feedingRoom.css",
+      "templates/tab-chats.html",
+      "css/longweihao.css",
+      "css/companyinfo.css",
+      "js/statics.js",
+      "css/statics.css",
+      "css/longweihao2.css",
+      "js/app.js",
+      "css/list.css",
+      "css/main.css",
+      "lib/ionic/js/ionic.bundle.js",
+      "js/jquery.min.js",
+      "css/style.css",
+      "lib/ngCordova/dist/ng-cordova.min.js",
+      "css/flowerinfo.css",
+      "lib/ionic/css/ionic.css",
+      "css/myclass.css",
+      "css/picimessage.css",
+      "templates/chat-detail.html",
+      "js/controllers.js"
+    ]
+  }
+}

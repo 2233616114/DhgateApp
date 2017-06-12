@@ -1,0 +1,39 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+		
+    </ion-nav-bar> 
+	<ion-content class="staticcon" id="staticcon">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <div class="input_select"></div>
+	        <input type="text" class="text" placeholder="单位名称检索" />
+	        <select>
+	        	<option>单位</option>
+	        	<option selected="selected">品种</option>
+	        </select>
+	        <img class="saoyisao" src="img/saoyisao.png" />
+	    </header>
+	    <section>
+	    	<!--<ul>
+	    		<li ng-click="gettext($index)" ng-repeat="item in items.statics">{{item.key}}</li>
+	    	</ul>-->
+	    	<ul>
+	    		<li ng-click="dianji(1)">花朵品种生产量</li>
+	    		<li ng-click="dianji(2)">花朵品种使用量</li>
+	    		<li ng-click="dianji(3)">养料</li>
+	    		<li ng-click="dianji(4)">本地与非本地</li>
+	    		<li ng-click="dianji(5)">合格与非合格</li>
+	    		<li ng-click="dianji(6)">垫料</li>
+	    	</ul>
+	    	<div class="clear"></div>
+	    	<div class="statictext">
+	    		<div ng-if="type==1">点击1-花朵品种生产量</div>
+	    		<div ng-if="type==2">点击2-花朵品种使用量</div>
+	    		<div ng-if="type==3">点击3-养料</div>
+	    		<div ng-if="type==4">点击4-本地与非本地</div>
+	    		<div ng-if="type==5">点击5-合格与非合格</div>
+	    		<div ng-if="type==6">点击6-垫料</div>
+	    	</div>
+	    </section>
+	</ion-content>
+</ion-view>

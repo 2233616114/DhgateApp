@@ -1,0 +1,65 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+		<h3></h3>
+    </ion-nav-bar> 
+	<ion-content class="longweihaocon" id="longweihaocon">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <div class="input_select"></div>
+	        <input type="text" class="text" placeholder="盆栽号" />
+	        <select id="select" onselect="clickselect()">
+	        	<option selected="selected">单位</option>
+	        	<option>品种</option>
+	        </select>
+	        <img class="saoyisao" src="img/saoyisao.png" />
+	    </header>
+	    <section>
+	    	<p>待处理</p>
+	    	<div class="ul">
+	    		<div class="left">
+	    			<input type="checkbox" />
+	    		</div>
+	    		<div class="right">
+	    			<ul>
+	    				<li>
+			        		<img src="img/shengchandanwei.png" />
+			        		<p>盆栽号:256</p>
+			        	</li>
+	    				<li>
+			        		<img src="img/pinzhong.png" />
+			        		<p>数量:777</p>
+			        	</li>
+	    				<li>
+			        		<img src="img/shuliang.png" />
+			        		<p>品种/品系:粉</p>
+			        	</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="ul">
+	    		<div class="left">
+	    			<input type="checkbox" />
+	    		</div>
+	    		<div class="right">
+	    			<ul>
+	    				<li>
+			        		<img src="img/shengchandanwei.png" />
+			        		<p>盆栽号:256</p>
+			        	</li>
+	    				<li>
+			        		<img src="img/pinzhong.png" />
+			        		<p>数量:777</p>
+			        	</li>
+	    				<li>
+			        		<img src="img/shuliang.png" />
+			        		<p>品种/品系:粉</p>
+			        	</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<a href="#/longweihao2">
+	    		<input type="button" value="下一步"  class="next-btn"/>
+	    	</a>
+	    </section>
+	</ion-content>
+</ion-view>

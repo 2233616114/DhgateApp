@@ -1,0 +1,37 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+		<h3></h3>
+    </ion-nav-bar> 
+	<ion-content class="longweihao2con" id="longweihao2con">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <div class="input_select"></div>
+	        <input type="text" class="text" placeholder="盆栽号" />
+	        <select id="select" onselect="clickselect()">
+	        	<option selected="selected">单位</option>
+	        	<option>品种</option>
+	        </select>
+	        <img class="saoyisao" src="img/saoyisao.png" />
+	    </header>
+	    <section>
+	    	<p>死亡记录</p>
+	    	<input type="text" placeholder="死亡处理单ID" />
+	    	<select>
+	    		<option selected="selected">处理分类</option>
+	    	</select>
+	    	<br /><br />
+	    	<input class="dealtime" type="text" placeholder="处理时间" />
+	    	<br /><br />
+            <input type="text" placeholder="总重量" />
+            <input type="text" placeholder="处理结果" />
+            <br /><br />
+            <input type="text" placeholder="处理负责人" />
+            <input type="text" placeholder="处理单位" />
+            <p>上传照片</p>
+            <div class="photo">
+            	<img ng-click="picture()" src="img/photos.png" />
+            </div>
+            <input type="button" value="提交"  class="next-btn"/>
+	    </section>
+	</ion-content>
+</ion-view>

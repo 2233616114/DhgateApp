@@ -1,0 +1,82 @@
+/* Empty. Add your own CSS if you like */
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+a{
+	text-decoration:none;
+}
+.con{
+	width:100%;
+	height:100%;
+	background-color: #99CDFF;	
+	display: -webkit-box;
+	display: box;
+	-webkit-box-orient:vertical;/*竖直布局*/
+	top:0px;
+}
+header{
+	width:100%;
+	height:40%;
+	/*background-color: lightpink;*/
+}
+.imgcontent{
+	width:40%;
+	position: relative;
+	left:30%;
+}
+.imgcontent img{
+	width:100%;
+	margin:50px auto;
+}
+section{
+	width:100%;
+	/*height:60%;*/
+	-webkit-box-flex:1;
+}
+.content{
+	width:70%;
+	height:100%;
+	margin:0 auto;
+	/*background-color: lightyellow;*/
+}
+.content h3{
+	color:white;
+	text-align: center;
+}
+.content .username,.content .password{
+	width:100%;
+	height:28px;
+	border-radius:5px;
+	border:none;
+	outline:none;
+	margin-top:10px;
+	padding-left:10px;
+}
+.content input{
+	margin-top:10px;
+}
+.content .remind{
+	color:#fff;
+}
+.content .loginbtn{
+	width:100%;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	color:#fff;
+	border:none;
+	outline:none;
+	background-color: #89B7E8;
+	border-radius:5px;
+}
+.content .problem{
+	text-align: center;
+	color:#fff;
+	display: block;
+	margin-top:10px;
+}

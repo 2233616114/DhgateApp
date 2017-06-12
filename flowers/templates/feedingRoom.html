@@ -1,0 +1,77 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+		
+    </ion-nav-bar> 
+	<ion-content class="feedingroomcon" id="feedingroomcon">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <img class="saoyisao" src="img/saoyisao.png" />
+	    </header>
+	    <section>
+	    	<div class="btns">
+	    		<button>出入记录</button>
+	    		<button>环境记录</button>
+	    		<button>减花朵</button>
+	    	</div>
+	    	<div class="allcontent">
+	    		<!--出入记录-->
+	    		<div class="content">
+	    			<select>
+		    			<option selected="selected">楼号</option>
+		    		</select>
+		    		<select>
+		    			<option selected="selected">层数</option>
+		    		</select>
+		    		<select>
+		    			<option selected="selected">培养室</option>
+		    		</select>
+		    		<input type="text" class="chu-text" placeholder="出入人员" />
+		    		<input type="text" class="chu-text" placeholder="进入时间" />
+		    		<input type="text" class="chu-text" placeholder="出去时间" />
+		    		<input type="text" value="出" class="chu-btn" />
+		    		<button class="queren">添加</button>
+		    		<p>历史记录查询</p>
+	    		</div>
+	    		<!--环境记录-->
+	    		<div class="content content1" >
+	    			<select>
+		    			<option selected="selected">楼号</option>
+		    		</select>
+		    		<select>
+		    			<option selected="selected">层数</option>
+		    		</select>
+		    		<br />
+		    		<select>
+		    			<option selected="selected">培养室</option>
+		    		</select>
+		    		<br />
+		    		<select>
+		    			<option selected="selected">温度</option>
+		    		</select>
+		    		<select>
+		    			<option selected="selected">湿度</option>
+		    		</select>
+		    		<input type="date" />
+		    		<button class="queren">添加</button>
+	    		</div>
+	    		<!--减花朵-->
+	    		<div class="content on">
+		    		<select>
+		    			<option selected="selected">楼号</option>
+		    		</select>
+		    		<select>
+		    			<option selected="selected">层数</option>
+		    		</select>
+		    		<select>
+		    			<option selected="selected">培养室</option>
+		    		</select>
+		    		<input type="text" class="text1" placeholder="盆栽号" />
+		    		<input type="text" class="text1" placeholder="减去数量" />
+		    		<br />
+		    		<button class="queren">确认</button>
+		    	</div>
+	    	</div>
+	    	
+	    </section>
+	</ion-content>
+</ion-view>

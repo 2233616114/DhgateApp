@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style-type:none;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.myclasscon{
+	width:100%;
+	height:100%;
+	display: box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	top:0px;
+	overflow:hidden;
+}
+.myclasscon header{
+	width:100%;
+	height:44px;
+	background-color: #2C89E6;
+	position: relative;
+}
+.myclasscon header .fanhui{
+	position: absolute;
+	width:9%;
+	left:1%;
+	top:5px;
+}
+.myclasscon header input{
+	height:30px;
+	width:45%;
+	position:absolute;
+	left:20%;
+	top:5px;
+	background-color: transparent;
+	border:1px solid lightgray;
+	border-radius:5px 0px 0px 5px;
+	color:#70C2FF;
+}
+.myclasscon header select{
+	position: absolute;
+	left:65%;
+	top:5px;
+	height:30px;
+	background-color:transparent;
+	border:1px solid lightgray;
+	border-radius:0px 5px 5px 0px;
+	color:#70C2FF;
+}
+.myclasscon header .saoyisao{
+	width:9%;
+	position: absolute;
+	right:2%;
+	top:5px;
+}
+.myclasscon section{
+	width:100%;
+	-webkit-box-flex:1;
+}
+.myclasscon section .btns{
+	width:100%;
+	height:50px;
+	/*background-color: lightpink;*/
+}
+.myclasscon section .btns button{
+	height:30px;
+	width:80px;
+	margin-left:5px;
+	border-radius:5px;
+	color:#2C89E6;
+	margin-top:10px;
+	outline:none;
+	border:none;
+	border:1px solid #2C89E6;
+	background-color: transparent;
+}
+.myclasscon section ul{
+	width:100%;
+	list-style: none;
+}
+.myclasscon section ul li{
+	width:100%;
+	height:50px;
+	position: relative;
+}
+.myclasscon section ul li img{
+	width:30px;
+	position: absolute;
+	left:2%;
+	top:10px;
+}
+.myclasscon section ul li p{
+	color:gray;
+	position: absolute;
+	left:15%;
+	top:12px;
+}
+.myclasscon section ul li .youjiantou{
+	width:15px;
+	position: absolute;
+	left:90%;
+}
+
+

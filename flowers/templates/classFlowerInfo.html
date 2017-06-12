@@ -1,0 +1,51 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+		<h3></h3>
+    </ion-nav-bar> 
+	<ion-content class="flowerinfocon" id="flowerinfocon">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <div class="input_select"></div>
+	        <input type="text" class="text" placeholder="单位名称检索" />
+	        <select>
+	        	<option selected="selected">单位</option>
+	        	<option>品种</option>
+	        </select>
+	        <img class="saoyisao" src="img/saoyisao.png" />
+	    </header>
+	    <section>
+	    	<div class="banner">
+	    		<img src="img/photo10.jpg" />
+	    	</div>
+	        <ul>
+	        	<li>
+	        		<a href="#/piciMessage">
+	        			<img src="img/shengchandanwei.png" />
+		        		<p>生产单位:{{datas.product.CompanyName}}</p>
+		        		<img class="youjiantou" src="img/youjiantou.png" />
+	        		</a>
+	        	</li>
+	        	<li>
+	        		<img src="img/picihao.png" />
+	        		<p>批次号:{{datas.product.BanchID}}</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<img src="img/pinzhong.png" />
+	        		<p>品种:{{datas.product.flowerType}}</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<img src="img/pinxi.png" />
+	        		<p>品系:{{datas.product.flowerStrain}}</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<img src="img/shuliang.png" />
+	        		<p>数量:{{datas.product.count}}</p>
+	        		
+	        	</li>
+	        </ul>
+	    </section>
+	</ion-content>
+</ion-view>

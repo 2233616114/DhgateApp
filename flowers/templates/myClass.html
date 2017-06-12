@@ -1,0 +1,71 @@
+<ion-view view-title="{{chat.name}}">
+	<ion-nav-bar class="bar-stable hide">
+		<h3></h3>
+    </ion-nav-bar> 
+	<ion-content class="myclasscon" id="myclasscon">
+	    <header>
+	        <img class="fanhui" src="img/fanhui.png" ng-click="back1()" />
+	        <div class="input_select"></div>
+	        <input type="text" class="text" placeholder="单位名称检索" />
+	        <select id="select" onselect="clickselect()">
+	        	<option selected="selected">单位</option>
+	        	<option>品种</option>
+	        </select>
+	        <img class="saoyisao" src="img/saoyisao.png" />
+	    </header>
+	    <section>
+	    	<div class="btns">
+	    		<button>未审核</button>
+	    		<button>审核通过</button>
+	    		<button>审核未通过</button>
+	    	</div>
+	    	<ul>
+	        	<li>
+	        		<a href="#/classDetails">
+	        			<img src="img/shengchandanwei.png" />
+		        		<p>课题名称:花朵质量管理系统教研</p>
+		        		<img class="youjiantou" src="img/youjiantou.png" />
+	        		</a>
+	        	</li>
+	        	<li>
+	        		<img src="img/picihao.png" />
+	        		<p>审查号:11111</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<img src="img/pinzhong.png" />
+	        		<p>课题类型:植物调研</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<img src="img/pinxi.png" />
+	        		<p>课题审核时间 :2016-06-06</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<a href="#/classApplicant">
+		        		<img src="img/shuliang.png" />
+		        		<p>本课题植物:兰花</p>
+		        		<img class="youjiantou" src="img/youjiantou.png" />
+	        		</a>
+	        	</li>
+	        	<li>
+	        		<a href="#/classDetails">
+	        			<img src="img/shengchandanwei.png" />
+		        		<p>课题名称:花朵质量管理系统教研</p>
+		        		<img class="youjiantou" src="img/youjiantou.png" />
+	        		</a>
+	        	</li>
+	        	<li>
+	        		<img src="img/picihao.png" />
+	        		<p>审查号:11111</p>
+	        		
+	        	</li>
+	        	<li>
+	        		<img src="img/pinzhong.png" />
+	        		<p>课题类型:植物调研</p>
+	        	</li>	
+	        </ul>
+	    </section>
+	</ion-content>
+</ion-view>

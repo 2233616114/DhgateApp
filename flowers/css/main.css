@@ -1,0 +1,274 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+.bigbox{
+	width:100%;
+	height:100%;
+	background-color: lightblue;
+	top:0px;
+}
+.contenttwo{
+	width:100%;
+	height:200px;
+}
+.contenttwo ul{
+	width:100%;
+	height:100%;
+	margin-left:0px;
+}
+.contenttwo ul li{
+	width:31%;
+	height:200px;
+	margin-left:5px;
+	float:left;
+}
+.contenttwo ul li:nth-child(1){
+	/*margin-left:12px;*/
+}
+.contenttwo ul li:nth-child(1) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	text-align: center;
+	color:#fff;
+	font-size:40px;
+	border-radius:50%;
+	background-color:#62A5F4 ;
+	margin-left:14%;
+}
+.contenttwo ul li:nth-child(2) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#74C4A1 ;
+	margin-left:14%;
+}
+.contenttwo ul li:nth-child(3) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#FDC2C9 ;
+	margin-left:14%;
+}
+.contenttwo ul li p{
+	width:100%;
+	text-align:center;
+	color:#fff;
+}
+/**/
+.contentthree{
+	width:100%;
+	height:200px;
+}
+.contentthree ul{
+	width:100%;
+	height:100%;
+	margin-left:0px;
+}
+.contentthree ul li{
+	width:40%;
+	height:200px;
+	margin-left:5px;
+	float:left;
+}
+.contentthree ul li:nth-child(1){
+	margin-left:10%;
+}
+.contentthree ul li:nth-child(1) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	text-align: center;
+	color:#fff;
+	font-size:40px;
+	border-radius:50%;
+	background-color:#62A5F4 ;
+	margin-left:24%;
+}
+.contentthree ul li:nth-child(2) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#74C4A1 ;
+	margin-left:24%;
+}
+.contentthree ul li:nth-child(3) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#74C4A1 ;
+	margin-left:24%;
+}
+.contentthree ul li p{
+	width:60%;
+	text-align:center;
+	color:#fff;
+	margin-left:20%;
+}
+
+/**/
+.contentfour{
+	width:100%;
+	height:200px;
+}
+.contentfour ul{
+	width:100%;
+	height:100%;
+	margin-left:0px;
+}
+.contentfour ul li{
+	width:31%;
+	height:200px;
+	margin-left:5px;
+	float:left;
+}
+.contentfour ul li:nth-child(1){
+	margin-left:2%;
+}
+.contentfour ul li:nth-child(1) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	text-align: center;
+	color:#fff;
+	font-size:40px;
+	border-radius:50%;
+	background-color:#62A5F4 ;
+	margin-left:15%;
+}
+.contentfour ul li:nth-child(2) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#74C4A1 ;
+	margin-left:15%;
+}
+.contentfour ul li:nth-child(3) div{
+	width:80px;
+	margin:0px auto;
+	height:80px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#F1BA29 ;
+	margin-left:15%;
+}
+.contentfour ul li p{
+	width:100%;
+	text-align:center;
+	color:#fff;
+}
+
+/**/
+.contentfive{
+	width:100%;
+	height:200px;
+}
+.contentfive ul{
+	width:100%;
+	height:100%;
+}
+.contentfive ul li{
+	width:23%;
+	height:200px;
+	margin-left:2%;
+	float:left;
+}
+.contentfive ul li:nth-child(1) div{
+	width:70px;
+	margin:0px auto;
+	height:70px;
+	line-height:80px;
+	text-align: center;
+	color:#fff;
+	font-size:40px;
+	border-radius:50%;
+	background-color:#62A5F4 ;
+	margin-left:8%;
+}
+.contentfive ul li:nth-child(2) div{
+	width:70px;
+	margin:0px auto;
+	height:70px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#74C4A1 ;
+	margin-left:8%;
+}
+.contentfive ul li:nth-child(3) div{
+	width:70px;
+	margin:0px auto;
+	height:70px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#F1BA29 ;
+	margin-left:8%;
+}
+.contentfive ul li:nth-child(4) div{
+	width:70px;
+	margin:0px auto;
+	height:70px;
+	line-height:80px;
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	border-radius:50%;
+	background-color:#0200FE ;
+	margin-left:8%;
+}
+.contentfive ul li p{
+	width:100%;
+	text-align:center;
+	color:#fff;
+}
+section .back{
+	width:40%;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	color:#fff;
+	position: relative;
+	left:60%;
+	bottom:-40px;
+}

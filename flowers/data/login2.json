@@ -1,0 +1,9 @@
+{
+   "login":[
+   {"username":"123","password":"123","state":1,"url":"/main"},
+   {"username":"1234","password":"1234","state":1,"url":"/classApplicant"},
+   {"username":"12345","password":"12345","state":1,"url":"/useCfeeder"},
+   {"username":"123456","password":"123456","state":1,"url":"/UseCMan"}
+   ],
+   "unlogin":{"state":0}
+}
