@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>delicious_food_home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <link rel="stylesheet" type="text/css" href="css/global.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index1.min.css" />
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <header>
+            <!-- 顶部导航区域 -->
+            <ul class="navigation">
+                <li class="active"><a href="index.html"><span class="nav_icon home"></span>Home</a></li>
+                <li class="dropdown"><a><span class="nav_icon about"></span>About</a>
+                <!--Submenu二级菜单-->
+                    <ul id="submenu" class="submenu">
+                        <li><a href="about.html">About Food Festival</a></li>
+                        <li><a href="about.html">Origin</a></li>
+                        <li><a href="about.html">Development</a></li>           
+                        <li><a href="about.html">Our Customers</a></li>
+        			    <li><a href="index.html">Buy Some Foods</a></li>         
+                    </ul>
+                <li><a href="intro.html"><span class="nav_icon blog"></span>Intro</a></li>
+                <li><a href="contact.html"><span class="nav_icon contact"></span>Contact</a></li>
+                <li class="nav_search" id="nav_search"><a href="#"></a></li>
+            </ul>
+        </header>
+        <!-- 中间内容区域 -->
+        <section id="main" class="main">
+            <!-- section下面的第一个子元素，便于加上滚动条 -->
+            <div class="main_son" id="main_son">
+                <!-- 隐藏的搜索区域 -->
+                <div id="search" >
+                    <form class="search" action="about.html">
+                        <fieldset class="">
+                            <input type="text" placeholder="search" class="text ">
+                            <input type="submit" value="search" class="submit">
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- 顶部分享区域 -->
+                <ul class="share">
+                    <li class="twitter"><a href="#"></a></li>
+                    <li class="facebook"><a href="#"></a></li>
+                    <li class="rss"><a href="#"></a></li>
+                </ul>
+                <a href="#" title="Back to Home page" id="logo" style="font-size:24px;"><img src="img/logo.png" style="width:180px;margin-top:-30px;" /></a> 
+
+                <!-- 中间内容区域 -->
+                <div class="block_module paper_bh_white">
+                    <h2>Welcome To Food Festival.</h2>
+                    <!-- 轮播效果实现 -->
+                    <div class="box" id="box">
+                        <div class="con" id="con">
+                            <!-- 图片列表 -->
+                            <ul class="pic" id="pic" style="">
+                                <li><img src="img/food1.jpg"/></li>
+                                <li><img src="img/food2.jpg"/></li>
+                                <li><img src="img/food5.jpg"/></li>
+                                <li><img src="img/food4.jpg"/></li>
+                            </ul>
+                            <ol id="ollist" class="ollist">
+                                <li class="on"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                            <h2 class="left" id="left"><</h2>
+                            <h2 class="right" id="right">></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_module paper_bh_white">
+                    <h2>Delicious Food Festival has arrived.</h2>
+                    <!-- banner区域 -->
+                    <img class="stretch" alt="" src="img/food10.jpg" style="width:100%;height:120px"/>
+                    <div class="content_container">
+                        <p>China covers a large territory and has many nationalities, hence a variety of Chinese food with different but fantastic and mouthwatering flavor...</p>
+                        <p>Since China's local dishes have their own typical characteristics, generally, Chinese food can be roughly divided into eight regional cuisines, which has been widely accepted around. Certainly, there are many other local cuisines that are famous, such as Beijing Cuisine and Shanghai Cuisine.</p>
+                        <p class="center">
+                            <a href="#" class="grey_bt_big btn">
+                            Get some foods now</a>
+                        </p>
+                        <div class="mengban">
+                            <p>Please wait 2 seconds,you will arrived at the page of contact.html......</p>
+                            <button class="close" id="close">关闭</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- content2 -->
+                <div class="block_module paper_bh_white hiring"> 
+                    <span class="tape_stick"></span>
+                    <h2>We are buying !</h2>
+                    <a class="grey_bt_sml btn" href="index.html">Apply</a>
+                    <div class="content_container"> 
+                        <img alt="" src="img/donut.png" />
+                        <p>China's local dishes have their own typical characteristics, generally, Chinese food can be roughly divided into eight regional cuisines, which has been widely accepted around
+                            <a class="food-festival" href="index.html">food festival.</a>. 
+                        </p>
+                    </div>
+                </div>
+                <!-- 底部地址栏区域 -->
+                <footer>
+                    <span class="copyright">Copyright © 2016 Food-Festival By Xyy. All Rights Reserved.</span> 
+                </footer>
+            </div>
+        </section>
+    </div>
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nav.min.js"></script>
+    <script type="text/javascript" src="js/index.min.js"></script>
+</html>

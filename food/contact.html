@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>delicious_food_contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <link rel="stylesheet" type="text/css" href="css/global.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/index1.min.css" />
+</head>
+<body>
+    <div id="wrapper" class="wrapper">
+        <header>
+            <ul class="navigation">
+                <li><a href="index.html"><span class="nav_icon home"></span> Home</a></li>
+                <li class="dropdown"><a href="#"><span class="nav_icon about"></span> About</a>
+                    <!--Submenu-->
+                    <ul id="submenu" class="submenu">
+                        <li><a href="about.html">About Food Festival</a></li>
+                        <li><a href="about.html">Origin</a></li>
+                        <li><a href="about.html">Development</a></li>           
+                        <li><a href="about.html">Our Customers</a></li>
+                        <li class="index1"> <a href="index.html">Buy Some Foods</a></li>         
+                    </ul>
+                </li>
+                <li><a href="intro.html"><span class="nav_icon blog"></span>Intro</a></li>
+                <li class="active"><a href="contact.html"><span class="nav_icon contact"></span> Contact</a></li>
+                <li class="nav_search"><a href="#"></a></li>
+            </ul>
+            <!-- search区域 -->
+            <div id="search">
+                <form class="search" action="about.html">
+                  <fieldset class=" ">
+                        <input type="text" placeholder="search" class="text ">
+                        <input type="submit" value="search" class="submit">
+                  </fieldset>
+                </form>
+            </div> 
+        </header>
+        <section id="main" class="main">
+            <!-- section下面的第一个子元素 -->
+            <div class="main_son" id="main_son">
+                <!--Search-->
+                <div id="search">
+                    <form class="search" action="about.html">
+                        <fieldset class=" ">
+                            <input type="text" placeholder="search" class="text ">
+                            <input type="submit" value="search" class="submit">
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- share分享区域 -->
+                <ul class="share">
+                    <li class="twitter"><a href="#"></a></li>
+                    <li class="facebook"><a href="#"></a></li>
+                    <li class="rss"><a href="#"></a></li>
+                </ul>
+                <a href="#" title="Back to Home page" id="logo" style="font-size:24px;"><img src="img/logo.png" style="width:180px;margin-top:-30px;" /></a> 
+                <!-- 中间内容 -->
+                <div class="block_module paper_bh_white">
+                    <h2>Get in touch</h2>
+                    <!-- 引入地图 -->
+                    <img class="fl_left" alt="" src="img/map.jpg" style="width:100%;"/>
+                    <ul id="contact" class="contact">
+                        <li class="address">
+                            <strong>Food-kinds</strong><br/>
+                              Shandong<br/>
+                              Guangdong
+                        </li>
+                        <li class="telephone">
+                            <strong>+37 7 200 323 324 </strong>
+                        </li>
+                        <li class="website">
+                            <a href="#">www.foodfestival.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block_module comment_form">
+                    <h2>Contact Form</h2>
+                    <form id="contactForm" action="" method="get">
+                        <ul id="moby_form">
+                            <li>
+                              <input type="text" name="senderName" id="senderName" placeholder="Please type your name" required="required" />
+                            </li>
+                            <li>
+                             <input type="email" name="senderEmail" id="senderEmail" placeholder="Please type your email address" required="required" />
+                            </li>
+                            <li>
+                              <textarea name="message" id="message" placeholder="Please type your message" required="required" cols="80" rows="10" maxlength="10000"></textarea>
+                            </li>
+                            <li>
+                            <input class="sendmessage" type="button" id="sendMessage" name="sendMessage" value="Send Email" />
+                            </li>
+                        </ul>
+                    </form>
+
+                    <div id="sendingMessage" class="statusMessage">
+                      <p>Sending your message. Please wait...</p>
+                    </div>
+                    <div id="successMessage" class="statusMessage">
+                      <p>Thanks for sending your message! We'll get back to you shortly.</p>
+                    </div>
+                    <div id="failureMessage" class="statusMessage">
+                      <p>There was a problem sending your message. Please try again.</p>
+                    </div>
+                    <div id="incompleteMessage" class="statusMessage">
+                      <p>Please complete all the fields in the form before sending.</p>
+                    </div>
+                </div>
+                <!-- 底部footer区域 -->
+                <footer>
+                    <span class="copyright">Copyright © 2016 Food-Festival By Xyy. All Rights Reserved.</span> 
+                </footer>
+            </div>
+        </section>
+    </div>
+</body>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/nav.min.js"></script>
+    <script type="text/javascript" src="js/contact.min.js"></script>
+</html>

@@ -1,0 +1,84 @@
+{
+  "intro.html": {
+    "href": "intro.html",
+    "resources": [
+      "js/jquery.min.js",
+      "js/nav.js",
+      "js/intro.js",
+      "css/global.css",
+      "css/index1.css",
+      "img/logo.png",
+      "img/food7.jpg"
+    ],
+    "refer": [
+      "intro.html",
+      "index.html",
+      "contact.html",
+      "about.html"
+    ],
+    "priority": 0
+  },
+  "about.html": {
+    "href": "about.html",
+    "resources": [
+      "js/jquery.min.js",
+      "js/nav.js",
+      "js/about.js",
+      "css/global.css",
+      "css/index1.css",
+      "img/logo.png",
+      "img/donut.png"
+    ],
+    "refer": [
+      "about.html",
+      "index.html",
+      "intro.html",
+      "contact.html"
+    ],
+    "priority": 0
+  },
+  "contact.html": {
+    "href": "contact.html",
+    "resources": [
+      "js/jquery.min.js",
+      "js/nav.js",
+      "js/contact.js",
+      "data/contact.json",
+      "css/global.css",
+      "css/index1.css",
+      "img/logo.png",
+      "img/map.jpg"
+    ],
+    "refer": [
+      "contact.html",
+      "about.html",
+      "index.html",
+      "intro.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/jquery.min.js",
+      "js/nav.js",
+      "js/index.js",
+      "css/global.css",
+      "css/index1.css",
+      "img/logo.png",
+      "img/food10.jpg",
+      "img/donut.png",
+      "img/food1.jpg",
+      "img/food2.jpg",
+      "img/food5.jpg",
+      "img/food4.jpg"
+    ],
+    "refer": [
+      "contact.html",
+      "index.html",
+      "intro.html",
+      "about.html"
+    ],
+    "priority": 0
+  }
+}
